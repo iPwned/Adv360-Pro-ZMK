@@ -1,3 +1,27 @@
+macro_override: macro_override{
+compatible = "zmk,behavior-macro";
+label = "macro_override";
+#binding-cells = <0>;
+bindings = <&kp F8>, <&kp D>, <&kp M>, <&kp S>, <&kp ENTER>;
+};
+macro_toggle_hand: macro_toggle_hand{
+compatible = "zmk,behavior-macro";
+label = "macro_toggle_hand";
+#binding-cells = <0>;
+bindings = <&kp LSHFT>, <&kp LWIN>, <&kp K>;
+};
+macro_screen_shot_sel: macro_screen_shot_sel{
+compatible = "zmk,behavior-macro";
+label = "macro_screen_shot_sel";
+#binding-cells = <0>;
+bindings = <&kp LWIN>, <&kp LSHFT>, <&kp N4>;
+};
+macro_toggle_mute: macro_toggle_mute{
+compatible = "zmk,behavior-macro";
+label = "macro_toggle_mute";
+#binding-cells = <0>;
+bindings = <&kp LWIN>, <&kp LSHFT>, <&kp M>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
